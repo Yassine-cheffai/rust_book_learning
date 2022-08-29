@@ -1,10 +1,9 @@
-
-const NAME: &str = "Yassine";
 fn main() {
-    let mut sum:i32 = 0;
-    for i in 1..10 {
-        sum += i;
-    // println!("{}", sum);
+    let x: String;
+    {
+        let name: String = "Yassine".to_string();
+        x = name;
+        println!("{x}");
     }
-    println!("{NAME}");
+    println!("{x}");
 }
